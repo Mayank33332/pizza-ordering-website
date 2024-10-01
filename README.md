@@ -1,6 +1,8 @@
 🍕 Online Pizza Website (Frontend Only) 🍕
 An interactive and responsive website where users can explore a variety of pizza options. This project focuses on creating a smooth and visually appealing user interface.
 
+🔗 website link :https://mayank-pizza.netlify.app/
+
 Tech Stack:
 
 HTML for structure 🏗️
