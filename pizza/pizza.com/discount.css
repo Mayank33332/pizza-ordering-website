@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #01204E;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: url('https://source.unsplash.com/1600x900/?pizza') no-repeat center center/cover;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    color: white;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.coupon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+}
+
+.coupon:hover {
+    transform: scale(1.05);
+}
+
+.coupon-details {
+    text-align: left;
+}
+
+.coupon-code {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.coupon-description {
+    font-size: 1em;
+    margin-top: 5px;
+    color: #ddd;
+}
+
+.copy-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6347;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.copy-btn:hover {
+    background-color: #ff4500;
+    transform: translateY(-3px);
+}
